@@ -45,6 +45,9 @@ top: 16px;
     margin-top: 10px;
     color: white;
 }
+.manue a:hover{
+    color: #EF6D58;
+}
 .contact{
     margin-left: 500px;
     margin-top: 10px;
@@ -55,6 +58,9 @@ top: 16px;
     height: 22px;
     font-size: 25px;
     border-radius: 5px;
+}
+.contact:hover{
+    color: #EF6D58;
 }
 .headertwo{
     padding: 200px;
@@ -77,6 +83,7 @@ font-size: 20px;
 .contactbtn{
     margin-top: 200px;
 }
+
 .headertwo a{
     font-size: 20px;
     color: white;
@@ -89,10 +96,21 @@ font-size: 20px;
     text-decoration: none;
     border-radius: 5px;
 }
+#btnone:hover{
+    color: white;
+    background-color: #e7351a;
+
+}
+#btnone:active{
+    background-color: #f6705c;
+}
 .btntwo{
     margin: 0px 100px;
     text-decoration: none;
     background-color: none;
+}
+.btntwo:hover{
+    color: #EF6D58;
 }
 .hederoooo{
     display: flex;
@@ -101,6 +119,10 @@ font-size: 20px;
     width: 600px;
     height: 500px;
     margin-top: 200px;
+}
+#screensort:hover{
+    background: url(.//img/Bitmap.png);
+    color: rebeccapurple;
 }
 /* .imageitam */
 .body-item{
@@ -158,4 +180,101 @@ margin-right: 50px;
 	width: 92px;
 	color: #391400;
 	text-decoration: none;
+}
+.about-text a:hover{
+    background-color: #EF6D58;
+    color: white;
+}
+.revinew {
+	display: flex;
+	margin: 100px auto;
+	width: 40%;
+	border: 1px solid #F3D1BF;
+	height: 200px;
+}
+.revinewitem{
+   margin: 80px 50px;
+display: block;
+
+}
+.Newsletter{
+justify-content: space-around;
+display: flex;
+}
+.inputitem input {
+	font-size: 20px;
+	color: #391400;
+	padding: 6px 20px;
+	background-color: white;
+	border: 0px;
+}
+/* googel map */
+.mapouter{
+    margin: 50px auto;
+    display: block;
+}
+.lastimage{
+    margin: 0px 300px ;
+    display: block;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+margin-right: ;
+    background-color: #28293E;
+    padding: 100px;
+}
+.content1{
+    text-align: center;
+
+}
+.content2 {
+	text-align: left;
+	display: block;
+	margin-left: 100px;
+}
+.content2 a {
+	display: block;
+	margin-top: 20px;
+	color: white;
+	text-decoration: none;
+}
+.content2 a:hover{
+    color: red;
+}
+.container3 {
+	text-align: center;
+}
+.content2 h4 {
+	color: #EF6D58;
+	font-weight: 300;
+}
+.content1 h3 {
+	color: white;
+}
+.copyrightoption {
+	border-top: 1px solid #ec8f8f;
+	display: flex;
+	justify-content: space-around;
+}
+.copyrightoption {
+	border-top: 1px solid #654b4b;
+	display: flex;
+	justify-content: space-around;
+	background: ##28293E;
+	background-color: #28293E;
+	padding: 20px;
+	color: white;
+}
+.copyrightoption a {
+	color: white;
+	margin-left: 43px;
+}
+.container3 a i{
+	color: white;
+	font-size: 26px;
+	background-color: #EF6D58;
+	padding: 5px;
+	border-radius: 50%;
+    text-align: center;
 }
